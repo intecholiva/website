@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Consultoría en Olivicultura y Extracción de Aceite</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f6f6f6;
+      color: #333;
+    }
+    header {
+      background: url('https://media.istockphoto.com/id/2169933657/es/foto/olive-grove-in-the-province-of-jaen-in-andalusia.jpg?s=612x612&w=0&k=20&c=DJW2P6pjRVAu2uSMYjTfw-esg49okFjICMDnxHLTgEk=') no-repeat center center/cover;
+      height: 100vh;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 2em;
+    }
+    header h1 {
+      font-size: 3em;
+      margin: 0;
+    }
+    header p {
+      font-size: 1.5em;
+      margin-top: 1em;
+    }
+    nav {
+      background-color: #4e774e;
+      padding: 0.5em;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    nav a {
+      color: white;
+      margin: 0 1em;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1.1em;
+    }
+    section {
+      padding: 3em 2em;
+      max-width: 1200px;
+      margin: auto;
+    }
+    section h2 {
+      text-align: center;
+      color: #5b8c5a;
+      margin-bottom: 1em;
+    }
+    section p {
+      line-height: 1.6;
+    }
+    .services {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 2em;
+      margin-top: 2em;
+    }
+    .card {
+      background: white;
+      border-radius: 8px;
+      padding: 2em;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      width: 280px;
+      text-align: center;
+    }
+    img {
+      width: 100%;
+      border-radius: 8px;
+      margin-top: 1em;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 1em;
+      margin-top: 2em;
+    }
+    input, textarea {
+      padding: 0.8em;
+      border-radius: 4px;
+      border: 1px solid #ccc;
+      font-size: 1em;
+    }
+    button {
+      background-color: #5b8c5a;
+      color: white;
+      padding: 0.8em;
+      border: none;
+      border-radius: 4px;
+      font-size: 1em;
+      cursor: pointer;
+    }
+    footer {
+      background-color: #5b8c5a;
+      color: white;
+      text-align: center;
+      padding: 1em;
+      margin-top: 3em;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Consultoría Olivícola</h1>
+  <p>Calidad, Innovación y Desarrollo para tu producción de aceite</p>
+</header>
+
+<nav>
+  <a href="#inicio">Inicio</a>
+  <a href="#tecnologia">Tecnología y Calidad</a>
+  <a href="#programa">Programa de Desarrollo</a>
+  <a href="#contacto">Contacto</a>
+</nav>
+
+<section id="inicio">
+  <h2>Quiénes Somos</h2>
+  <p>Somos especialistas en olivicultura y tecnología de extracción de aceite de oliva. Ayudamos a productores a maximizar la calidad y la rentabilidad de sus olivares mediante asesoramiento técnico, innovación y gestión eficiente en toda la cadena productiva.</p>
+</section>
+
+<section id="tecnologia">
+  <h2>Tecnología y Calidad</h2>
+  <p>Aplicamos tecnología de vanguardia en procesos de recolección y extracción, asegurando aceites extra vírgenes de alta calidad. Nuestro enfoque incluye innovación en maquinaria, procesos de extracción en frío, y sistemas de control de calidad certificados internacionalmente.</p>
+  <img src="https://media.istockphoto.com/id/1286837139/es/foto/la-fase-final-de-la-producci%C3%B3n-de-aceite-de-oliva-virgen-extra-con-equipos-modernos.jpg?s=612x612&w=0&k=20&c=K74VCm-uy_zEWOxZPk-fTWf7GcDbUp6FBe9ZQ04QFmk=/tecnologia-extraccion.jpg" alt="Tecnología avanzada en extracción de aceite">
+</section>
+
+<section id="programa">
+  <h2>Programa de Desarrollo</h2>
+  <p>Enfocamos nuestros esfuerzos en la <strong>mejora y optimización de la eficiencia productiva y de la calidad</strong> del aceite de oliva. Ofrecemos asesoría personalizada en diseño de plantaciones, manejo agronómico integral, fertilización, poda, cosecha y poscosecha, asegurando el máximo rendimiento y excelencia en cada etapa del proceso.</p>
+  <img src="https://media.istockphoto.com/id/1170287892/es/foto/cosecha-de-aceitunas-las-manos-funcionando-el-joven-granjero-est%C3%A1-recogiendo-aceitunas.jpg?s=612x612&w=0&k=20&c=XXSlPmlkVte8lmVsBZ4YmSCDYM6_Sy6kArJUqwLZwXI=" alt="Técnicos trabajando en olivar">
+</section>
+
+<section id="contacto">
+  <h2>Contáctanos</h2>
+  <p>¿Listo para optimizar tu producción de aceite de oliva? ¡Hablemos!</p>
+  <form action="mailto:a.boudebouz@hotmail.com" method="POST" enctype="text/plain">
+    <input type="text" name="nombre" placeholder="Tu Nombre" required>
+    <input type="email" name="email" placeholder="Tu Email" required>
+    <textarea name="mensaje" placeholder="Tu Mensaje" required></textarea>
+    <button type="submit">Enviar Mensaje</button>
+  </form>
+</section>
+
+<footer>
+  <p>&copy; 2025 Consultoría en Olivicultura. Todos los derechos reservados.</p>
+</footer>
+
+</body>
+</html>
